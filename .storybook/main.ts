@@ -3,7 +3,12 @@ import type { StorybookConfig } from "@storybook/web-components-vite"
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
-    "@storybook/addon-essentials",
+    {
+      name: "@storybook/addon-essentials",
+      options: {
+        controls: false, // 👈 disable the backgrounds addon
+      },
+    },
     "@whitespace/storybook-addon-html",
   ],
   framework: {

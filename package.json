@@ -18,8 +18,10 @@
     "deploy": "npm run deploy-storybook"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/tflx/on-click-outside"
   },
+  "homepage": "https://tflx.github.io/on-click-outside/",
   "dependencies": {
     "lit": "latest"
   },
