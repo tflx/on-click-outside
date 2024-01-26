@@ -2,6 +2,8 @@
 
 The `on-click-outside` is a custom web component built using LitElement. It dispatches a custom event `ON_CLICK_OUTSIDE` whenever a click is detected outside the content of this component.
 
+[See demo](https://tflx.github.io/on-click-outside)
+
 ## Usage
 
 1. Import the component:
