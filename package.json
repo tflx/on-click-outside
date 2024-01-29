@@ -1,6 +1,6 @@
 {
   "name": "on-click-outside-web-component",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Identifies a click outside of your component. Good for pop-overs, modals, and tooltips.",
   "source": "index.ts",
   "main": "dist/index.js",
