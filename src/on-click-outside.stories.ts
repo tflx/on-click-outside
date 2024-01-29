@@ -20,10 +20,11 @@ type Story = StoryObj;
 export const Default: Story = {
   render: () => html`
     <div style="height: 100vh;">
-      <on-click-outside @ON_CLICK_OUTSIDE="${() => console.log('You clicked outside me!')}">
-        <button>Click outside me</button>
+      <on-click-outside @onClickOutside="${() => console.log('You clicked outside me!')}">
+        <div style="border: 1px solid black; padding: 1rem;">
+          <p>Click outside this element and check the console 👇</p>
+        </div>
       </on-click-outside>
-      <p>See the console »</p>
     </div>
   `
 }

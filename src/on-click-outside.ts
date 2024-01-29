@@ -1,7 +1,7 @@
 import { html, LitElement, css } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
-export const ON_CLICK_OUTSIDE = 'ON_CLICK_OUTSIDE'
+export const ON_CLICK_OUTSIDE = 'onClickOutside'
 
 @customElement('on-click-outside')
 export class OnClickOutside extends LitElement {
